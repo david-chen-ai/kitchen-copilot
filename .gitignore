@@ -12,3 +12,4 @@ wheels/
 # Sensitive Files
 .env
 images/
+out/
