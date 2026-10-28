@@ -11,3 +11,4 @@ class Invoice(BaseModel):
     date: str
     line_items: list[LineItem]
     total: float
+    needs_review: bool = False

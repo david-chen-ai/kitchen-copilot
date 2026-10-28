@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "yubiland", email = "yubiland922@gmail.com" }
+    { name = "lmlastat", email = "learnmlandstats@gmail.com" }
 ]
 requires-python = ">=3.14"
 dependencies = [
@@ -19,3 +19,5 @@ kitchen-copilot = "kitchen_copilot:main"
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
 build-backend = "uv_build"
+[tool.pytest.ini_options]
+pythonpath = ["."]
